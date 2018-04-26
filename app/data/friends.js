@@ -1,3 +1,4 @@
+import { builtinModules } from "module";
 
 
 var friends = [
@@ -27,3 +28,5 @@ var friends = [
         "scores": [ 4, 4, 3, 4, 1, 5, 2, 4, 1, 2 ]
     }
 ]
+
+module.exports = friends;
